@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body class=" color-bg mx-0">
+    <nav>
+        <navbar class="relative w-full max-w-screen-2xl h-[4.5rem] flex bg-navbar-color1">
+            <div class="logo-bg md:min-w-[550px]  h-[101.5%] minWidthLogo2 shadowLogo trasferLogo">
+                <a href="home.html">
+                    <img class="sm:ml-14 pl-2 mt-1" src="images/al-najdi-logo-2.png" alt="">
+                </a>
+            </div>
+                <ul class="flex text-center list-none w-500 ml-[10%] m-auto">
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="home.html">Home</a></li>
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="products.html">Products</a></li>
+
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="aboutus.html">About Us</a></li>
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="contactus.html">contact</a></li>
+                    <li><a class="xs:hidden nav:table-cell p-2 pl-4 pr-4 no-underline text-white darkRed-bg rounded-full w-full hover_2" href="signin.html">sign in</a></li>
+                </ul>
+                <ul class="flex absolute justify-center justify-items-center inset-y-0 list-none liteRed-bg m-0 ml-16 maxWidth1 pt-3.5 pr-3.5 pl-3.5 shadowLogo right-0">
+                    <li class="mt-1"><a  href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt=""></a></li>
+                    <li class="ml-3 mt-1"><a class="ml-0 mr-0 right-0" href="signin.html"><img src="images/account.png" width="30px" height="30px" alt=""></a></li>
+                </ul>
+        </navbar>
+    </nav>
+    <main class=" h-full ">
+          
+        <section class="flex m-5 justify-center items-center min-h-screen relative">
+            <div class="container flex-wrap min-w-4xl min-h-96 flex z-10">
+              <div class="contactInfo ml-auto xs:mb-2.5 md:mb-0 w-96 bg-red-900 z-10 p-10 flex flex-col justify-between rounded-lg shadow-md">
+                <h2 class="text-white text-2xl font-medium">Contact Info</h2>
+                <ul class="info relative mt-8">
+                  <li class="flex items-start mb-8 cursor-pointer">
+                    <span class="inline-block w-6 h-6 rounded-full overflow-hidden"><img src="https://img.icons8.com/ios-filled/50/ffffff/email.png" alt="Email" /></span>
+                    <span class="text-white ml-4 font-light"><a href="mailto:email@example.com">email@example.com</a></span>
+                  </li>
+                  <li class="flex items-start mb-8 cursor-pointer">
+                    <span class="inline-block w-6 h-6 rounded-full overflow-hidden"><img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png" alt="Phone" /></span>
+                    <span class="text-white ml-4 font-light">123-456-7890</span>
+                  </li>
+                  <li class="flex items-start mb-8 cursor-pointer">
+                    <span class="inline-block w-6 h-6 rounded-full overflow-hidden"><img src="https://img.icons8.com/ios-filled/50/ffffff/address.png" alt="Address" /></span>
+                    <span class="text-white ml-4 font-light">1234 Main St, Anytown USA</span>
+                  </li>
+                </ul>
+                <ul class="sci flex mt-4">
+                  <li class="mr-4"><a href="#"><img src="https://img.icons8.com/material-rounded/24/ffffff/facebook-f.png" alt="Facebook" /></a></li>
+                  <li class="mr-4"><a href="#"><img src="https://img.icons8.com/material-rounded/24/ffffff/twitter.png" alt="Twitter" /></a></li>
+                  <li class="mr-4"><a href="#"><img src="https://img.icons8.com/material-rounded/24/ffffff/instagram-new.png" alt="Instagram" /></a></li>
+                </ul>
+              </div>
+              <div class="max-w-md mr-auto p-8 bg-white rounded-md shadow-md">
+                <h2 class="text-2xl font-bold mb-6">Send a Message</h2>
+                <form>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="relative">
+                      <input type="text" name="first_name" id="first_name" required class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                      <label for="first_name" class="absolute -top-3 left-2 bg-white text-gray-500 px-1">First Name</label>
+                    </div>
+                    <div class="relative">
+                      <input type="text" name="last_name" id="last_name" required class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                      <label for="last_name" class="absolute -top-3 left-2 bg-white text-gray-500 px-1">Last Name</label>
+                    </div>
+                    <div class="relative col-span-2">
+                      <input type="email" name="email" id="email" required class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                      <label for="email" class="absolute -top-3 left-2 bg-white text-gray-500 px-1">Email Address</label>
+                    </div>
+                    <div class="relative col-span-2">
+                      <input type="tel" name="phone" id="phone" required class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                      <label for="phone" class="absolute -top-3 left-2 bg-white text-gray-500 px-1">Mobile Number</label>
+                    </div>
+                    <div class="relative col-span-2">
+                      <textarea name="message" id="message" required class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"></textarea>
+                      <label for="message" class="absolute -top-3 left-2 bg-white text-gray-500 px-1">Write your message here...</label>
+                    </div>
+                    <div class="col-span-2">
+                      <button type="submit" class="w-full bg-red-900 text-white py-2 px-4 rounded-md hover:bg-red-600 transition duration-300">Send</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+        </section>              
+
+    </main>
+    <footer>
+      <footer>
+        <div class="bg-black py-6">
+          <div class="container mx-auto">
+            <div class="flex flex-wrap">
+              <div class="w-full md:w-1/4 text-center md:text-left">
+                <div class="mt-6">
+                  <img src="images/al-najdi-logo-2.png" class=" w-fit m-12">
+                </div>
+              </div>
+              <div class="w-full md:w-1/4 text-center md:text-left">
+                <h5 class="uppercase mb-6 font-bold text-white">Useful Links</h5>
+                <ul class="list-reset mb-6">
+                  <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="home.html" class="no-underline hover:underline text-gray-300 hover:text-white">Home</a>
+                  </li>
+                  <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="products.html" class="no-underline hover:underline text-gray-300 hover:text-white">Products</a>
+                  </li>
+                  <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="contactus.html" class="no-underline hover:underline text-gray-300 hover:text-white">Contact Us</a>
+                  </li>
+                  <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="aboutus.html" class="no-underline hover:underline text-gray-300 hover:text-white">About Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full md:w-1/4 text-center md:text-left">
+                <h5 class="uppercase mb-6 font-bold text-white">Follow Us</h5>
+                <ul class="list-reset mb-6">
+                  <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#"><img src="https://img.icons8.com/material-rounded/24/ffffff/facebook-f.png" alt="Facebook" /></a>
+                  </li>
+                  <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white"><img src="https://img.icons8.com/material-rounded/24/ffffff/twitter.png" alt="Twitter" /></a>
+                  </li>
+                  <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white"><img src="https://img.icons8.com/material-rounded/24/ffffff/instagram-new.png" alt="Instagram" /></a>
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="w-full">
+                <hr class="border-t border-gray-700 my-6">
+                        <p class="text-center text-gray-400 text-sm">
+                          <a href="#" class="hover:underline">Copyright 2023</a>
+                          - Powered by Omar
+                        </p>
+              </div>
+              
+              
+      </footer>
+  
+    </footer>
+</body>
+</html>

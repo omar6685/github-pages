@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body class=" color-bg mx-0">
+    <nav>
+        <navbar class="relative w-full max-w-screen-2xl h-[4.5rem] flex bg-navbar-color1">
+            <div class="logo-bg md:min-w-[550px]  h-[101.5%] minWidthLogo2 shadowLogo trasferLogo">
+                <a href="home.html">
+                    <img class="sm:ml-14 pl-2 mt-1" src="images/al-najdi-logo-2.png" alt="">
+                </a>
+            </div>
+                <ul class="flex text-center list-none w-500 ml-[10%] m-auto">
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="home.html">Home</a></li>
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="products.html">Products</a></li>
+
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="aboutus.html">About Us</a></li>
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="contactus.html">contact</a></li>
+                    <li><a class="xs:hidden nav:table-cell p-2 pl-4 pr-4 no-underline text-white darkRed-bg rounded-full w-full hover_2" href="signin.html">sign in</a></li>
+                </ul>
+                <ul class="flex absolute justify-center justify-items-center inset-y-0 list-none liteRed-bg m-0 ml-16 maxWidth1 pt-3.5 pr-3.5 pl-3.5 shadowLogo right-0">
+                    <li class="mt-1"><a  href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt=""></a></li>
+                    <li class="ml-3 mt-1"><a class="ml-0 mr-0 right-0" href="signin.html"><img src="images/account.png" width="30px" height="30px" alt=""></a></li>
+                </ul>
+        </navbar>
+    </nav>
+    <main class=" h-full ">
+      <div class="min-h-screen flex flex-col justify-center items-center">
+        <div class="flex m-7 justify-center items-center flex-col lg:flex-row">
+          <form action="#" class="form">
+            <h2 class="text-3xl  font-bold mb-1 text-red-600">Get Started</h2>
+            <h6 class="text-sm text-rose-100 mb-8">Already have an account? <a href="signin.html" class="  text-red-600">Sign in</a></h6>
+            <div class="input-wrap relative mb-6">
+              <input type="name" class="input-field w-full py-3 px-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" autocomplete="off" required />
+              <label class="absolute top-0 left-0 py-3 px-3 text-gray-500 font-bold text-sm transition-all duration-300" for="name">Name</label>
+            </div>
+            <div class="input-wrap relative mb-6">
+              <input type="email" class="input-field w-full py-3 px-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" autocomplete="off" required />
+              <label class="absolute top-0 left-0 py-3 px-3 text-gray-500 font-bold text-sm transition-all duration-300" for="email">Email</label>
+            </div>
+            <div class="input-wrap relative mb-6">
+              <input type="password" minlength="4" class="input-field w-full py-3 px-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" autocomplete="off" required />
+              <label class="absolute top-0 left-0 py-3 px-3 text-gray-500 font-bold text-sm transition-all duration-300" for="password">Password</label>
+            </div>
+            <input type="submit" value="Sign Up" class="sign-btn bg-red-900 text-white py-3 px-6 rounded-lg hover:bg-red-600 transition-all duration-300" />
+    
+            <p class="text mt-8 text-rose-100">
+              By signing up, I agree to the
+              <a href="#" class="text-red-600 ">Terms of Services</a> and
+              <a href="#" class="text-red-600 ">Privacy Policy</a>
+            </p>
+          </form>
+            </div>
+          </div>
+        </div>
+      </div>          
+    </main>
+    <footer>
+      <div class="bg-black py-6">
+        <div class="container mx-auto">
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <div class="mt-6">
+                <img src="images/al-najdi-logo-2.png" class=" w-fit m-12">
+              </div>
+            </div>
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <h5 class="uppercase mb-6 font-bold text-white">Useful Links</h5>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="home.html" class="no-underline hover:underline text-gray-300 hover:text-white">Home</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="products.html" class="no-underline hover:underline text-gray-300 hover:text-white">Products</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="contactus.html" class="no-underline hover:underline text-gray-300 hover:text-white">Contact Us</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="aboutus.html" class="no-underline hover:underline text-gray-300 hover:text-white">About Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <h5 class="uppercase mb-6 font-bold text-white">Follow Us</h5>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="#"><img src="https://img.icons8.com/material-rounded/24/ffffff/facebook-f.png" alt="Facebook" /></a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white"><img src="https://img.icons8.com/material-rounded/24/ffffff/twitter.png" alt="Twitter" /></a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white"><img src="https://img.icons8.com/material-rounded/24/ffffff/instagram-new.png" alt="Instagram" /></a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="w-full">
+              <hr class="border-t border-gray-700 my-6">
+                      <p class="text-center text-gray-400 text-sm">
+                        <a href="#" class="hover:underline">Copyright 2023</a>
+                        - Powered by Omar
+                      </p>
+            </div>
+            
+            
+    </footer>
+
+</body>
+</html>

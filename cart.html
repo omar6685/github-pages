@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body class=" color-bg mx-0">
+    <nav>
+        <navbar class="relative w-full max-w-screen-2xl h-[4.5rem] flex bg-navbar-color1">
+            <div class="logo-bg md:min-w-[550px]  h-[101.5%] minWidthLogo2 shadowLogo trasferLogo">
+                <a href="home.html">
+                    <img class="sm:ml-14 pl-2 mt-1" src="images/al-najdi-logo-2.png" alt="">
+                </a>
+            </div>
+                <ul class="flex text-center list-none w-500 ml-[10%] m-auto">
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="home.html">Home</a></li>
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="products.html">Products</a></li>
+
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="aboutus.html">About Us</a></li>
+                    <li><a class="xs:hidden relative right-16 lg:table-cell p-2 no-underline text-white hover_bottom" href="contactus.html">contact</a></li>
+                    <li><a class="xs:hidden nav:table-cell p-2 pl-4 pr-4 no-underline text-white darkRed-bg rounded-full w-full hover_2" href="signin.html">sign in</a></li>
+                </ul>
+                <ul class="flex absolute justify-center justify-items-center inset-y-0 list-none liteRed-bg m-0 ml-16 maxWidth1 pt-3.5 pr-3.5 pl-3.5 shadowLogo right-0">
+                    <li class="mt-1"><a  href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt=""></a></li>
+                    <li class="ml-3 mt-1"><a class="ml-0 mr-0 right-0" href="signin.html"><img src="images/account.png" width="30px" height="30px" alt=""></a></li>
+                </ul>
+        </navbar>
+    </nav>
+    <main class=" h-full color-bg">
+     <div class="container mx-auto my-8">
+      <table class="w-full text-left rounded-lg">
+        <thead class="bg-red-900 uppercase text-xs text-rose-100">
+          <tr>
+            <th class="py-3 px-4 font-medium">Product</th>
+            <th class="py-3 px-4 font-medium">Quantity</th>
+            <th class="py-3 px-4 font-medium">Subtotal</th>
+          </tr>
+        </thead>
+        <tbody class=" divide-y divide-gray-200">
+          <tr>
+            <td class="py-4 flex items-center">
+              <img class="w-16 h-16 rounded-full" src="images/engine-4.png" alt="Red Printed Tshirt">
+              <div class="ml-4">
+                <p class="text-red-900 font-medium">Red Printed Tshirt</p>
+                <p class="text-rose-100 text-xs">$50.00</p>
+                <a href="#" class="text-red-500 text-xs mt-2">Remove</a>
+              </div>
+            </td>
+            <td class="py-4"><input type="number" value="1" class="w-16 h-8 rounded-full text-center text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent"></td>
+            <td class="py-4 text-rose-100">$50.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="flex justify-end mt-8 mr-3">
+        <table class="text-end">
+          <tbody class="text-rose-100">
+            <tr class="border-t-4 border-red-900">
+              <th class="py-4 px-4 font-medium">Subtotal</th>
+              <td class="py-4 px-4 text-right">$200.00</td>
+            </tr>
+            <tr class="">
+              <th class="py-4 px-4 font-medium">Tax</th>
+              <td class="py-4 px-4 text-right">$30.00</td>
+            </tr>
+            <tr class=" ">
+              <th class="py-4 px-4 font-medium">Total</th>
+              <td class="py-4 px-4 text-right">$230.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="flex justify-end my-4 mr-3">
+        <a href="#" class="ml-4 px-6 py-2 logo-bg text-white uppercase font-bold tracking-wider">Buy Now</a>
+      </div>
+    </div>
+      
+    </main>
+    <footer>
+      <div class="bg-black py-6">
+        <div class="container mx-auto">
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <div class="mt-6">
+                <img src="images/al-najdi-logo-2.png" class=" w-fit m-12">
+              </div>
+            </div>
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <h5 class="uppercase mb-6 font-bold text-white">Useful Links</h5>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="home.html" class="no-underline hover:underline text-gray-300 hover:text-white">Home</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="products.html" class="no-underline hover:underline text-gray-300 hover:text-white">Products</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="contactus.html" class="no-underline hover:underline text-gray-300 hover:text-white">Contact Us</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="aboutus.html" class="no-underline hover:underline text-gray-300 hover:text-white">About Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <h5 class="uppercase mb-6 font-bold text-white">Follow Us</h5>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="#"><img src="https://img.icons8.com/material-rounded/24/ffffff/facebook-f.png" alt="Facebook" /></a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white"><img src="https://img.icons8.com/material-rounded/24/ffffff/twitter.png" alt="Twitter" /></a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white"><img src="https://img.icons8.com/material-rounded/24/ffffff/instagram-new.png" alt="Instagram" /></a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="w-full">
+              <hr class="border-t border-gray-700 my-6">
+                      <p class="text-center text-gray-400 text-sm">
+                        <a href="#" class="hover:underline">Copyright 2023</a>
+                        - Powered by Omar
+                      </p>
+            </div>
+            
+            
+    </footer>
+
+</body>
+</html>
